@@ -10,7 +10,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 import {
     TEXT_MAX_LENGTH , COST_PER_UNIT
-} from "@/features/text-to-speech/data/constant";
+} from "@/features/text-to-speech/data/constants";
 
 export function TextInputPanel() {
   const [text, setText] = useState("");
